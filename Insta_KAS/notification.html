@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Double Navbar</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+</head>
+<body>
+    <header>
+        <!-- First Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgb(225, 43, 43); padding-top: 7px; padding-bottom: 7px;">
+        <div class="container">
+
+            <!--Email-Phone -->
+            <div class="d-flex align-items-center justify-content-start">
+                <div class="circle mr-2 white-circle d-flex align-items-center justify-content-center">
+                    <i class="fas fa-phone-alt red-icon"></i>
+                </div>
+                <div class="mr-4">
+                    <span class="text-white">08069405206</span>
+                </div>
+                <div class="circle mr-2 white-circle d-flex align-items-center justify-content-center">
+                    <i class="fas fa-envelope red-icon"></i>
+                </div>
+                <div>
+                    <span class="text-white">suppportkpsc@instapsc.com</span>
+                </div>
+            </div>
+`            
+            
+            
+            
+
+
+            <!-- Search Bar -->
+            <div class="container d-flex justify-content-end align-items-center">
+                <form class="form-inline position-relative">
+                    <div class="input-group">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Here" aria-label="Search" style="border-radius: 29px;height: 30px; width: 327px; margin-top: 0px;">
+                        <div class="input-group-append d-flex align-items-center">
+                            <button class="btn" type="submit" style="position: absolute; top: 50%; transform: translateY(-50%); right: 0; border-top-left-radius: 0; border-bottom-left-radius: 0;">
+                                <div class="red-circle d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-search white-icon" style="font-size: 14px;"></i>
+                                </div>
+                            </button>
+                        </div>     
+                    </div>
+                </form>     
+            </div>
+            
+
+            
+            
+            <!-- Login and Sign Up Buttons -->
+            <!-- Login and Sign Up Buttons -->
+            <div class="d-flex align-items-center">
+                <a href="login.html" class="btn btn-outline-light text-white mr-1 btn-proxima login-btn" style="font-size: 1rem; white-space: nowrap; border-color: transparent; font-weight: bold; line-height: 1;" target="_blank">Login</a>
+                <span class="text-light mr-1" style="font-size: 0.8rem; vertical-align: middle; line-height: 2;">|</span>
+                <a href="signup.html" class="btn btn-outline-light text-white mr-1 btn-proxima signup-btn" style="font-size: 1rem; white-space: nowrap; border-color: transparent; font-weight: bold; line-height: 1;" target="_blank">Signup</a>
+            </div>
+        </div>
+    </nav>
+        <!-- Second Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-top: 3px; padding-bottom: 3px;">
+            <div class="container">
+                <a href="#" style="display: flex; align-items: center;">
+                    <div style="margin-left: 10px;">
+                        <img src="images/INSTA KAS.png" alt="Logo" style="width: 180px; height: 55px;">
+                    </div>
+                </a>
+            
+            
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link font-bold" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Our Genesis</a>
+                              <a class="dropdown-item" href="#">Our Vision, Mission & Values</a>
+                              <a class="dropdown-item" href="#">Our Approach</a>
+                              <a class="dropdown-item" href="#">Our Results</a>
+                              <a class="dropdown-item" href="#">Our Faculty</a>
+                              <a class="dropdown-item" href="#">Our Branches</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              KPSC
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Syllabus</a>
+                              <a class="dropdown-item" href="#">Previous Year Question Paper</a>
+                              <a class="dropdown-item" href="#">Results</a>
+                            </div>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Courses</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Topper's Corner</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Resources
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Secure Prelims</a>
+                              <a class="dropdown-item" href="#">Secure Mains</a>
+                              <a class="dropdown-item" href="#">Insta Editorials</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ananya.html">Ananya Sadhana</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+<body>
+      <div class="container-fluid"style="background-color: rgba(84, 84, 84, 1);padding-top: 5px; padding-bottom: 5px;">
+        <div class="row">
+         <div class="col">
+            <div class="grey-rectangle"></div>
+            <div class="grey-rectangle"></div>
+                <marquee behavior="scroll" direction="left" style="color: aliceblue;">Latest updates or notifications go here... Latest updates or notifications go here...</marquee>
+            </div>
+        </div>
+    </div>
+</div>
+
+                  <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="banner">
+                                <img class="banner-icon img-fluid" loading="eager" alt="" src="banner.jpeg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+  
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2">
+                            <div class="dear-student-there-container">
+                                <p class="dear-student">Dear Student,</p>
+                                <p class="blank-line">&nbsp;</p>
+                                <p class="there-are-just">There are just 91 days left for May 28th!</p>
+                                <p class="what-is-the">What is the first emotion that you feel when you think of UPSC PRELIMS? FEAR or excitement? We hope that it is the latter, however, majority of the aspirants are gripped by FEAR as the final countdown to Prelims begins.</p>
+                                <p class="blank-line1">&nbsp;</p>
+                                <p class="embarking-on-the">Embarking on the UPSC Prep journey is a bold and an equally risky decision. Why? Because out of lakhs of aspirants, only a few hundreds clear it each year. It is an arduous journey that is filled with uncertainty at each stage. We encounter several fears in this marathon: fear of advancing age, fear of not being good enough, fear of societal judgment, fear of being left behind in life...but the biggest fear that each aspirant is faced with is the FEAR OF FAILURE! If it is your last attempt in 2023, we completely empathize and understand your mindset and fears.</p>
+                                <p class="blank-line2">&nbsp;</p>
+                                <p class="being-cognizant-of">Being cognizant of this inner battle that each of us face at some point in our lives, we sat down with Vinay Sir to understand his perspective on Fear. Watch the episode of our podcast: A Little More Light tomorrow and listen to Sir share his wisdom and insightful thoughts on how one must face fear in life and conquer them!</p>
+                                <p class="blank-line3">&nbsp;</p>
+                                <p class="dont-give-in">“Don’t give in to your fears. If you do, you won’t be able to talk to your heart.”― Paulo Coelho</p>
+                                <p class="stay-tuned">Stay tuned…</p>
+                                <p class="blank-line4">&nbsp;</p>
+                                <p class="write-to-us">Write to us with your feedback at alittlemorelightpodcast@insightsias.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+  
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="rectangle-below-paragraph shadow-lg p-4">
+                                <div class="row">
+                                    <div class="col-md-6 border-right">
+                                        <h3>Notifications</h3>
+                                        <ul>
+                                            <li>Weekly Compilation of Practice to Progress (PYQs) for KPSC 21st Feb to 25th Feb.... <a href="#" style="color: inherit; text-decoration: none;">Read More</a></li>
+                                            <li>Weekly Compilation of Practice to Progress (PYQs) for KPSC 21st Feb to 25th Feb.... <a href="#" style="color: inherit; text-decoration: none;">Read More</a></li>
+                                            <li>Weekly Compilation of Practice to Progress (PYQs) for KPSC 21st Feb to 25th Feb.... <a href="#" style="color: inherit; text-decoration: none;">Read More</a></li>
+                                        </ul>
+                                        <button class="btn btn-primary view-all" style="background-color: #DA251D"><a href="#" style="color: inherit; text-decoration: none;">View All ></a></button>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h3>Important Updates</h3>
+                                        <ul>
+                                            <li>Weekly Compilation of Practice to Progress (PYQs) for KPSC 21st Feb to 25th Feb.... <a href="#" style="color: inherit; text-decoration: none;">Read More</a></li>
+                                            <li>Weekly Compilation of Practice to Progress (PYQs) for KPSC 21st Feb to 25th Feb.... <a href="#" style="color: inherit; text-decoration: none;">Read More</a></li>
+                                            <li>Weekly Compilation of Practice to Progress (PYQs) for KPSC 21st Feb to 25th Feb.... <a href="#" style="color: inherit; text-decoration: none;">Read More</a></li>
+                                        </ul>
+                                        <button class="btn btn-primary view-all" style="background-color: #DA251D"><a class="links" href="#" style="color: inherit; text-decoration: none;">View All ></a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+        <ection class="footer footer-bg">
+          <div class="container">
+              <div class="row">
+                  <div class="col">
+                      <div class="footer-logo"></div><br><br>
+                      <p>Insta KAS has redefined, revolutionised and simplified the way aspirants prepare for KPSC Civil Services Exam.</p>
+                      <div class="icons">
+                          <i class="fab fa-facebook-f"></i>
+                          <i class="fab fa-twitter"></i>
+                          <i class="fab fa-linkedin"></i>
+                          <i class="fab fa-github"></i>
+                      </div>
+                  </div>
+                  
+                          <section class="footer">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <h4>USEFUL LINKS</h4>
+                                        <ul class="links">
+                                            <li><a href="#" >Home</a></li>
+                                            <li><a href="#">KPSC</a></li>
+                                            <li><a href="#">Topper’s Corner</a></li>
+                                            <li><a href="#">Resources</a></li>
+                                            <li><a href="#">Ananya Sadhana</a></li>
+                                            <li><a href="#">Contact Us</a></li>
+                                        </ul>
+                                    </div>
+                        
+                                    <div class="col-md-3">
+                                        <h4>ABOUT US</h4>
+                                        <ul class="links">
+                                            <li><a href="#">About Insta KAS</a></li>
+                                            <li><a href="#">Our Achievements</a></li>
+                                            <li><a href="#">Branches</a></li>
+                                            <li><a href="#">Faculty</a></li>
+                                            <li><a href="#">Gallery</a></li>
+                                        </ul>
+                                    </div>
+                        
+                                    <div class="col-md-3">
+                                        <h4>COURSES</h4>
+                                        <ul class="links">
+                                            <li><a href="#">Classroom Program</a></li>
+                                            <li><a href="#">IPM</a></li>
+                                            <li><a href="#">Prelims</a></li>
+                                            <li><a href="#">Mains</a></li>
+                                        </ul>
+                                    </div>
+                        
+                                    <div class="col-md-3">
+                                        <h4>CONTACT US</h4>
+                                        <ul class="links">
+                                            <li><a href="#">+91 8899556633</a></li>
+                                            <li><a href="#">info@instakas.com</a></li>
+                                            <li>
+                                                <p>InsightsIAS Headquarters, Nanda Ashirwad Complex, 3rd Floor, Above Village Hyper Market,
+                                                    Chandralyout Main Road, Attiguppe , Bengaluru - 560040</p>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+                        
+                         
+

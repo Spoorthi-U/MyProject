@@ -1,0 +1,313 @@
+
+/*Search icon*/
+.white-icon {
+    color: white;
+}
+
+.red-circle {
+    background-color: red;
+    border-radius: 50%;
+    width: 25px; /* Adjust as needed */
+    height: 25px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Email-Phone*/
+.white-circle {
+    background-color: white;
+    border-radius: 50%;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-icon {
+    color: red;
+}
+
+.white-icon {
+    color: white;
+}
+
+
+
+::placeholder {
+    font-size: 11px; /* Adjust the font size as needed */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Proxima+Nova&display=swap');
+
+/* Apply Proxima Nova font to buttons */
+.btn-proxima {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+.nav-link.font-bold {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+}
+.nav-link.dropdown-toggle {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+}
+.nav-link{
+
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: bold;
+}
+
+.footer-bg {
+    background:#F7F7F7;
+    ;
+}
+
+
+
+/* Override Bootstrap navbar link color */
+.nav-link.font-bold {
+    color: #3D3D3D !important; /* Set link color to black */
+}
+
+/* Override Bootstrap navbar toggler color */
+.nav-link.dropdown-toggle {
+    color: #3D3D3D !important; /* Set toggler color to black */
+}
+.nav-link{
+    color: #3D3D3D !important;
+}
+
+.banner-image {
+    position: absolute;
+    top: 0;
+    left: 948px;
+    width: 289px;
+    height: 339px;
+    right: 0px;
+}
+
+
+.search-bar {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    display: flex; /* Enable flexbox */
+    align-items: center; /* Align vertically */
+  }
+  .search-bar select,
+    .search-bar button {
+      width: 200px; /* Set width for both dropdown menus and button */
+    }
+    .search-bar select {
+        margin-right: 10px; /* Add space between dropdown menus */
+      }
+
+/* Home Page */
+/* Home Page */
+/* Home Page */
+.rectangle {
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    max-width: 1042px;
+    height: auto; /* Change height to auto for responsiveness */
+    padding: 20px; /* Add padding to the rectangle */
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 9px 14px -2px rgba(0, 0, 0, 0.2);
+}
+
+.top-left-image {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 117px;
+    height: auto; /* Change height to auto for responsiveness */
+    z-index: 1;
+}
+
+.quote-container {
+    position: relative;
+    z-index: 2; /* Ensure text appears above the image */
+    margin-left: 130px; /* Adjust margin to avoid overlap */
+}
+
+.quote-container .text-center {
+    width: 100%;
+}
+
+
+.header {
+    background-color: #F0F2F7;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+  .main-content {
+    padding: 40px 0;
+  }
+
+
+
+  .container-layout {
+    position: absolute;
+    width: 100%; /* Adjusted to 100% */
+    max-width: 1360px; /* Maximum width */
+    height: 784px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /* Center the container horizontally and vertically */
+}
+.tile-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.tile-row {
+    display: flex;
+    justify-content: space-between; /* Ensure space between tiles */
+    transition: transform 0.5s ease; /* Smooth transition for sliding */
+}
+.tile {
+    flex: 0 0 45%; /* Each tile takes up 45% of the container width */
+}
+.dot-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.dot {
+    cursor: pointer;
+}
+.tile img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.underline {
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    margin: 0 auto;
+}
+.underline2 {
+    border: none;
+    border-bottom: 3px solid rgb(201, 13, 13);
+    width: 20%;
+    margin: 0 auto;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black; /* Change the arrow color here */
+}
+
+
+
+
+
+
+  .carousel-item {
+    position: relative;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.9s ease, opacity 0.s ease;
+  }
+  .carousel-item.active {
+    position: relative;
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+
+  .carousel-indicators {
+    position: static;
+    margin-top: 20px;
+  }
+  .carousel-inner {
+    margin-top: 20px;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+
+.footer{
+    background-color: #e9e8e8;
+}
+
+
+
+.red-rectangle {
+    width: 1257px;
+    height: 407px;
+    background-color: rgb(196, 24, 24);
+    border-radius: 129px 20px 20px 20px;
+    margin-top: 30px;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .background {
+    height: 100%;
+    background: url('login-bg.jpg') center/cover no-repeat;
+  }
+  
+  .container {
+    z-index: 1; /* Ensure the container is above the background */
+  }
+  
+  .login-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeInDown 1s ease forwards;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+
+
+
+
+
+  .login-btn:hover,
+.signup-btn:hover {
+    background-color: red/* Your desired hover color */;
+    border-color:red /* Your desired border color */;
+    color: red/* Your desired text color */;
+}
+
+
+  
